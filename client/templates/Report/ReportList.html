@@ -1,0 +1,13 @@
+<template name="ReportList">
+  	<div>
+		<select name="select" id="Sestacion">
+      <option value="Todos">Todos</option> 
+			<option value="Portal80">Portal 80</option> 
+			<option value="Quirigua">Quirigua</option>
+			<option value="Carrera90">Carrera 90</option>
+		</select>
+	</div>
+    {{#each Report}}
+      {{> ReportItem}}
+    {{/each}}
+</template>

@@ -1,0 +1,12 @@
+<template name="layout">
+  <div class="page-header">
+		<header>
+			<div class="navbar-header">
+				<a class="navbar-brand" href="{{pathFor 'NewReport'}}"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span></a>
+			</div>
+		</header>
+	</div>
+  <div class="container">
+      {{> yield}}
+    </div>
+</template>
