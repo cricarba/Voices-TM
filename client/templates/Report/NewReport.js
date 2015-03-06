@@ -8,7 +8,7 @@ Template.NewReport.events({
       Hora : "19:25",
     };
 
-    Reports.insert(reporte);
-    Router.go('ReportList');
+    Report.insert(reporte);
+    Router.go('/');
   }
 });
